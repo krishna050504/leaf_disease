@@ -60,7 +60,7 @@ if uploaded_file is not None:
             else:
                 st.markdown(f"<h2 style='color: red;'>Predicted Class: {predicted_class}</h2>", unsafe_allow_html=True)
             
-            st.warning(f"Probability of being Healthy: {prob_healthy}")
+           
         except Exception as e:
             st.error(f"Error during prediction: {e}")
 
